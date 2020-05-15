@@ -1,97 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Our Ocean Honouring Website" />
-    <meta name="keywords" content="ocean, water, clean-air" />
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Our Ocean Honouring Website" />
+        <meta name="keywords" content="ocean, water, clean-air" />
+        <meta name="author" content="Bootcamp Team" />
+        <meta name="copyright" content="2020" />
 
-    <meta name="author" content="Bootcamp Team" />
-    <meta name="copyright" content="2020" />
+        <link rel="stylesheet" 
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+            crossorigin="anonymous">
 
-    <link rel="stylesheet" 
-          href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
-          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
-          crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <title>Ocean</title>
 
-    <title>Ocean</title>
-</head>
+        <style>
+            .ocean-background {
+                background-image: url(https://media.nationalgeographic.org/assets/photos/215/321/a1fd755c-c414-4c8d-b223-b76ad89c39a6.jpg);
+                background-size: cover;
+            }
+            footer {
+                position: fixed;
+                bottom: 20px;
+                left: 0px;
+                height: 20px;
+                width: 100%;
+                opacity: 0.6;
+            }
+        </style>
+    </head>
 
-<body>
-    <!-- NAVBAR -->
-<nav class="navbar navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">
-      <img src="http://icons.iconarchive.com/icons/iynque/flurry-extras-9/128/Ocean-Waves-icon.png" 
-           width="30" 
-           height="30" 
-           class="d-inline-block align-top" 
-           alt="Ocean Icon" 
-           loading="lazy" />
-        Ocean
-    </a>
-</nav>
+    <body>
+            <!-- NAVBAR -->
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+            <img src="http://icons.iconarchive.com/icons/iynque/flurry-extras-9/128/Ocean-Waves-icon.png" 
+                width="30" 
+                height="30" 
+                class="d-inline-block align-top" 
+                alt="Ocean Icon" 
+                loading="lazy" />
+                Ocean
+            </a>
+        </nav>
 
-<!--Jumbotron Bootstrap Element-->
-<style>
-    .ocean-background {
-        background-image: url(https://media.nationalgeographic.org/assets/photos/215/321/a1fd755c-c414-4c8d-b223-b76ad89c39a6.jpg);
-        background-size: cover;
-    }
-</style>
-<div class="jumbotron jumbotron-fluid ocean-background">
-    <div class="container">
-      <h1 class="display-4 text-light">Oceans are Forever</h1>
-      <p class="lead text-light">Let's keep our oceans clean and pristine.</p>
-    </div>
-</div>
-
-<!--Columns Element-->
-<div class="row">
-    <div class="col-sm-12 col-md">
-        <div class="card">
-            <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.personal.psu.edu%2Fafr3%2Fblogs%2Fsiowfa13%2FBlueOcean.jpg&f=1&nofb=1" 
-                 class="card-img-top" 
-                 alt="Ocean Blue">
-            <div class="card-body">
-              <h5 class="card-title">Blue</h5>
-              <p class="card-text">The ocean is a beautiful blue colour!</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-              <hr />
+        <!--Jumbotron Bootstrap Element-->
+        <div class="jumbotron jumbotron-fluid ocean-background">
+            <div class="container">
+            <h1 class="display-4 text-light">Oceans are Forever</h1>
+            <p class="lead text-light">Let's keep our oceans clean and pristine.</p>
             </div>
         </div>
-    </div> 
-    <div class="col-sm-12 col-md">
-        <div class="card">
-            <img src="https://30a.com/wp-content/uploads/2018/04/Webp.net-compress-image-5-1.jpg" 
-                 class="card-img-top" 
-                 alt="Ocean Big">
-            <div class="card-body">
-              <h5 class="card-title">Big</h5>
-              <p class="card-text">The ocean is huge, like bigger than you would expect.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-              <hr />
-            </div>
-        </div>
-    </div>
-    <div class="col-sm-12 col-md">
-        <div class="card">
-            <img src="https://i.imgur.com/qkGOFzd.jpg" 
-                 class="card-img-top" 
-                 alt="Ocean Wet">
-            <div class="card-body">
-              <h5 class="card-title">Wet</h5>
-              <p class="card-text">The ocean is wet. Don't expect to come out dry from a jump in it.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-              <hr />
-            </div>
-        </div>
-    </div>
-</div>
 
-<!--Footer Element-->
-</body>
+        <!--Columns Element-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md">
+                    <div class="card">
+                        <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.personal.psu.edu%2Fafr3%2Fblogs%2Fsiowfa13%2FBlueOcean.jpg&f=1&nofb=1" 
+                            class="card-img-top" 
+                            alt="Ocean Blue">
+                        <div class="card-body">
+                        <h5 class="card-title">Blue</h5>
+                        <p class="card-text">The ocean is a beautiful blue colour!</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <hr />
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-sm-12 col-md">
+                    <div class="card">
+                        <img src="https://30a.com/wp-content/uploads/2018/04/Webp.net-compress-image-5-1.jpg" 
+                            class="card-img-top" 
+                            alt="Ocean Big">
+                        <div class="card-body">
+                        <h5 class="card-title">Big</h5>
+                        <p class="card-text">The ocean is huge, like bigger than you would expect.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <hr />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md">
+                    <div class="card">
+                        <img src="https://i.imgur.com/qkGOFzd.jpg" 
+                            class="card-img-top" 
+                            alt="Ocean Wet">
+                        <div class="card-body">
+                        <h5 class="card-title">Wet</h5>
+                        <p class="card-text">The ocean is wet. Don't expect to come out dry from a jump in it.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <hr />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Footer Element (Fixed)-->
+        <footer>
+            <div class="alert alert-dark" role="alert">
+                Our Ocean Footer (c) 2020 Bootcamp Team
+            </div>
+        </footer>
+    </body>
 </html>
